@@ -72,9 +72,8 @@
 
 /* ===== Countdown Timer ===== */
 (function () {
-  /* Launch date: 101 days from now */
-  const launchDate = new Date();
-  launchDate.setDate(launchDate.getDate() + 101);
+  /* Fixed Launch Date: June 28, 2026 */
+  const launchDate = new Date('2026-06-28T00:00:00');
 
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
