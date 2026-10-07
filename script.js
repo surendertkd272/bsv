@@ -72,8 +72,8 @@
 
 /* ===== Countdown Timer ===== */
 (function () {
-  /* Fixed Launch Date: June 28, 2026 */
-  const launchDate = new Date('2026-06-28T00:00:00');
+  /* Fixed Launch Date: November 21, 2026 (45 days from Oct 7, 2026) */
+  const launchDate = new Date('2026-11-21T00:00:00');
 
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
